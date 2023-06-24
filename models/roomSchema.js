@@ -7,7 +7,7 @@ const roomSchema = new mongoose.Schema({
     maxPeople: { type: Number, required: true },
     desc: { type: String, required: true },
     roomNumbers: [{
-        Number: Number,
+        number: Number,
         unavailableDates: {
             type:[Date]
         },
@@ -16,3 +16,4 @@ const roomSchema = new mongoose.Schema({
 });
 
 const Room = mongoose.model('Room', roomSchema);
+module.exports = Room;
