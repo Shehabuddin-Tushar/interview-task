@@ -1,6 +1,10 @@
 const Hotel = require('../models/hotelSchema');
 const Room = require('../models/roomSchema');
+const Booking=require("../models/bookingSchema")
 const moment = require('moment');
+const mongoose = require('mongoose');
+
+
 
 exports.createRoom = async (req, res) => {
     const hotelId = req.params.hotelid;
@@ -86,5 +90,81 @@ exports.getroom = async(req,res) => {
     } catch (err) {
         res.json(err)
     }
+
+}
+
+//booking
+
+exports.booking = async(req,res) => {
+    try {
+        const {guestName, contact, email, hotelId, roomNumber, checkInDate, checkOutDate} = req.body;
+
+        // Create a new booking
+        const booking = new Booking({
+            guestName,
+            contact,
+            email,
+            hotel: hotelId,
+            roomNumber,
+            checkInDate,
+            checkOutDate,
+           
+        });
+
+        // Save the booking to the database
+        await booking.save();
+
+        res.status(200).json({ message: 'Booking successful!', booking });
+    } catch (error) {
+        res.status(500).json({ message: 'An error occurred while booking.', error });
+    }
+}
+
+
+exports.payment = async (req, res) => {
+
+
+    // Replace with the actual ID of the user document
+
+    
+    
+
+    try {
+        const customer = await stripe.customers.create({
+            email: req.body.stripeEmail,
+            source: req.body.stripeToken,
+            name: "tushar khan interview task",
+            address: {
+                line1: "jatrabari",
+                postal_code: "1362",
+                city: "Dhaka",
+                state: "Dhaka",
+                country: "Bangladesh"
+            }
+        });
+
+        const charge = await stripe.charges.create({
+            amount: 7000,
+            description: "interview task for backend developer",
+            currency: "USD",
+            customer: customer.id
+        });
+        console.log(charge);
+        
+        const userId = '6497ddc4a896d160b7b0b168'; 
+
+        const updatebooking = await Booking.findByIdAndUpdate(
+            new mongoose.Types.ObjectId(userId),
+            { $set: { payment: 'confirmed' } },
+            { new: true }
+        );
+
+        res.send("success");
+       
+        
+    } catch (err) {
+        res.send(err);
+    }
+
 
 }

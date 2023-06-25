@@ -93,6 +93,7 @@ exports.changeuserpassword = async (req, res) => {
 }
 
 exports.loggeduserdata = async (req, res) => {
+    console.log(req.user._id)
     const user = await UserModel.findById({ _id: req.user._id }).select("-password")
     res.send({ "status": "success", "messege": "userdata from database", "user": user })
 
