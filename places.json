@@ -1,0 +1,401 @@
+[{
+  "_id": {
+    "$oid": "64940291287cdb3ad439f83e"
+  },
+  "name": "Eiffel Tower",
+  "location": "Paris, France",
+  "category": "Landmarks",
+  "description": "The Eiffel Tower is a wrought-iron lattice tower located in Paris, France. It is an iconic symbol of the city and a popular tourist attraction.",
+  "address": "Champ de Mars, 5 Avenue Anatole, 75007 Paris, France",
+  "contact": "+33 892 70 12 39",
+  "ratings": 4.8,
+  "photos": [
+    "https://example.com/eiffel-tower-photo1.jpg",
+    "https://example.com/eiffel-tower-photo2.jpg",
+    "https://example.com/eiffel-tower-photo3.jpg"
+  ],
+  "reviews": [
+    "A must-visit landmark in Paris!",
+    "The view from the top is breathtaking.",
+    "An architectural marvel."
+  ],
+  "coordinates": {
+    "latitude": 48.8584,
+    "longitude": 2.2945
+  }
+},{
+  "_id": {
+    "$oid": "64940291287cdb3ad439f83f"
+  },
+  "name": "Taj Mahal",
+  "location": "Uttar Pradesh, India",
+  "category": "Historical Sites",
+  "description": "The Taj Mahal is an ivory-white marble mausoleum on the right bank of the Yamuna river in Agra, India. It is considered one of the most beautiful buildings in the world.",
+  "address": "Dharmapuri, Forest Colony, Tajganj, Agra, Uttar Pradesh 282001, India",
+  "contact": "+91 562 242 1201",
+  "ratings": 4.9,
+  "photos": [
+    "https://example.com/taj-mahal-photo1.jpg",
+    "https://example.com/taj-mahal-photo2.jpg",
+    "https://example.com/taj-mahal-photo3.jpg"
+  ],
+  "reviews": [
+    "Exquisite architecture!",
+    "The symmetry and detailing are incredible.",
+    "A symbol of eternal love."
+  ],
+  "coordinates": {
+    "latitude": 27.1751,
+    "longitude": 78.0421
+  }
+},{
+  "_id": {
+    "$oid": "64940291287cdb3ad439f840"
+  },
+  "name": "Statue of Liberty",
+  "location": "New York, USA",
+  "category": "Landmarks",
+  "description": "The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor. It is a symbol of freedom and democracy.",
+  "address": "Liberty Island, New York, NY 10004, USA",
+  "contact": "+1 212-363-3200",
+  "ratings": 4.7,
+  "photos": [
+    "https://example.com/statue-of-liberty-photo1.jpg",
+    "https://example.com/statue-of-liberty-photo2.jpg",
+    "https://example.com/statue-of-liberty-photo3.jpg"
+  ],
+  "reviews": [
+    "A must-visit landmark in New York!",
+    "The view from the crown is breathtaking.",
+    "A powerful symbol of hope and liberty."
+  ],
+  "coordinates": {
+    "latitude": 40.6892,
+    "longitude": -74.0445
+  }
+},{
+  "_id": {
+    "$oid": "64940291287cdb3ad439f841"
+  },
+  "name": "Santorini",
+  "location": "Cyclades, Greece",
+  "category": "Islands",
+  "description": "Santorini is a volcanic island in the Cyclades group of islands in Greece. It is known for its stunning sunsets, white-washed buildings, and beautiful beaches.",
+  "address": "Santorini, 847 00, Greece",
+  "contact": "+30 2286 0 24444",
+  "ratings": 4.8,
+  "photos": [
+    "https://example.com/santorini-photo1.jpg",
+    "https://example.com/santorini-photo2.jpg",
+    "https://example.com/santorini-photo3.jpg"
+  ],
+  "reviews": [
+    "A picturesque island with breathtaking views!",
+    "The caldera is a must-see.",
+    "Relaxing on the beaches is pure bliss."
+  ],
+  "coordinates": {
+    "latitude": 36.3932,
+    "longitude": 25.4615
+  }
+},{
+  "_id": {
+    "$oid": "64940291287cdb3ad439f842"
+  },
+  "name": "Machu Picchu",
+  "location": "Cusco Region, Peru",
+  "category": "Historical Sites",
+  "description": "Machu Picchu is an ancient Inca citadel situated on a mountain ridge in the Cusco Region of Peru. It is a UNESCO World Heritage site.",
+  "address": "Machu Picchu, 08680, Peru",
+  "contact": "+51 84 211038",
+  "ratings": 4.8,
+  "photos": [
+    "https://example.com/machu-picchu-photo1.jpg",
+    "https://example.com/machu-picchu-photo2.jpg",
+    "https://example.com/machu-picchu-photo3.jpg"
+  ],
+  "reviews": [
+    "Breathtaking views!",
+    "A mystical place with rich history.",
+    "The hike was challenging but rewarding."
+  ],
+  "coordinates": {
+    "latitude": 13.1631,
+    "longitude": -72.545
+  }
+},{
+  "_id": {
+    "$oid": "64940291287cdb3ad439f843"
+  },
+  "name": "Great Wall of China",
+  "location": "Beijing, China",
+  "category": "Historical Sites",
+  "description": "The Great Wall of China is a series of fortifications that spans across Northern China. It is a UNESCO World Heritage site and one of the New Seven Wonders of the World.",
+  "address": "Huairou, China",
+  "contact": "+86 10 6162 6022",
+  "ratings": 4.7,
+  "photos": [
+    "https://example.com/great-wall-photo1.jpg",
+    "https://example.com/great-wall-photo2.jpg",
+    "https://example.com/great-wall-photo3.jpg"
+  ],
+  "reviews": [
+    "An engineering marvel!",
+    "The views from the wall are breathtaking.",
+    "Walking on the Great Wall is an unforgettable experience."
+  ],
+  "coordinates": {
+    "latitude": 40.4319,
+    "longitude": 116.5704
+  }
+},{
+  "_id": {
+    "$oid": "64940291287cdb3ad439f844"
+  },
+  "name": "Pyramids of Giza",
+  "location": "Cairo, Egypt",
+  "category": "Historical Sites",
+  "description": "The Pyramids of Giza are ancient structures located on the outskirts of Cairo, Egypt. They are among the most famous and enduring symbols of Ancient Egypt.",
+  "address": "Al Haram, Giza Governorate, Egypt",
+  "contact": "+20 2 3344 2560",
+  "ratings": 4.9,
+  "photos": [
+    "https://example.com/pyramids-photo1.jpg",
+    "https://example.com/pyramids-photo2.jpg",
+    "https://example.com/pyramids-photo3.jpg"
+  ],
+  "reviews": [
+    "A mesmerizing sight!",
+    "The precision of the pyramids is astounding.",
+    "A must-visit for history enthusiasts."
+  ],
+  "coordinates": {
+    "latitude": 29.9792,
+    "longitude": 31.1344
+  }
+},{
+  "_id": {
+    "$oid": "64940291287cdb3ad439f845"
+  },
+  "name": "The Colosseum",
+  "location": "Rome, Italy",
+  "category": "Historical Sites",
+  "description": "The Colosseum is an ancient amphitheater located in the heart of Rome, Italy. It is a symbol of Roman engineering and a UNESCO World Heritage site.",
+  "address": "Piazza del Colosseo, 1, 00184 Roma RM, Italy",
+  "contact": "+39 06 3996 7700",
+  "ratings": 4.7,
+  "photos": [
+    "https://example.com/colosseum-photo1.jpg",
+    "https://example.com/colosseum-photo2.jpg",
+    "https://example.com/colosseum-photo3.jpg"
+  ],
+  "reviews": [
+    "An iconic landmark with a rich history.",
+    "The scale of the Colosseum is impressive.",
+    "A must-visit when in Rome."
+  ],
+  "coordinates": {
+    "latitude": 41.8902,
+    "longitude": 12.4922
+  }
+},{
+  "_id": {
+    "$oid": "64940291287cdb3ad439f846"
+  },
+  "name": "Machu Picchu",
+  "location": "Cusco Region, Peru",
+  "category": "Historical Sites",
+  "description": "Machu Picchu is an ancient Inca citadel situated on a mountain ridge in the Cusco Region of Peru. It is a UNESCO World Heritage site.",
+  "address": "Machu Picchu, 08680, Peru",
+  "contact": "+51 84 211038",
+  "ratings": 4.8,
+  "photos": [
+    "https://example.com/machu-picchu-photo1.jpg",
+    "https://example.com/machu-picchu-photo2.jpg",
+    "https://example.com/machu-picchu-photo3.jpg"
+  ],
+  "reviews": [
+    "Breathtaking views!",
+    "A mystical place with rich history.",
+    "The hike was challenging but rewarding."
+  ],
+  "coordinates": {
+    "latitude": 13.1631,
+    "longitude": -72.545
+  }
+},{
+  "_id": {
+    "$oid": "64940291287cdb3ad439f847"
+  },
+  "name": "Petra",
+  "location": "Ma'an Governorate, Jordan",
+  "category": "Historical Sites",
+  "description": "Petra is an ancient city carved into the red rock cliffs of Jordan. It is famous for its stunning architecture, including the iconic Treasury building.",
+  "address": "Petra, Ma'an Governorate, Jordan",
+  "contact": "+962 3 215 7000",
+  "ratings": 4.9,
+  "photos": [
+    "https://example.com/petra-photo1.jpg",
+    "https://example.com/petra-photo2.jpg",
+    "https://example.com/petra-photo3.jpg"
+  ],
+  "reviews": [
+    "A true wonder of the world!",
+    "The Treasury is even more impressive in person.",
+    "Exploring the ancient city is like stepping back in time."
+  ],
+  "coordinates": {
+    "latitude": 30.3285,
+    "longitude": 35.4444
+  }
+},{
+  "_id": {
+    "$oid": "64940291287cdb3ad439f848"
+  },
+  "name": "The Great Barrier Reef",
+  "location": "Queensland, Australia",
+  "category": "Natural Wonders",
+  "description": "The Great Barrier Reef is the world's largest coral reef system, located off the coast of Queensland, Australia. It is a UNESCO World Heritage site and a paradise for divers and snorkelers.",
+  "address": "Queensland, Australia",
+  "contact": "+61 7 4750 0800",
+  "ratings": 4.8,
+  "photos": [
+    "https://example.com/great-barrier-reef-photo1.jpg",
+    "https://example.com/great-barrier-reef-photo2.jpg",
+    "https://example.com/great-barrier-reef-photo3.jpg"
+  ],
+  "reviews": [
+    "A must-visit for marine life enthusiasts!",
+    "The coral formations are stunning.",
+    "Snorkeling in the Great Barrier Reef is an unforgettable experience."
+  ],
+  "coordinates": {
+    "latitude": -16.2264,
+    "longitude": 146.9087
+  }
+},{
+  "_id": {
+    "$oid": "64940291287cdb3ad439f849"
+  },
+  "name": "Machu Picchu",
+  "location": "Cusco Region, Peru",
+  "category": "Historical Sites",
+  "description": "Machu Picchu is an ancient Inca citadel situated on a mountain ridge in the Cusco Region of Peru. It is a UNESCO World Heritage site.",
+  "address": "Machu Picchu, 08680, Peru",
+  "contact": "+51 84 211038",
+  "ratings": 4.8,
+  "photos": [
+    "https://example.com/machu-picchu-photo1.jpg",
+    "https://example.com/machu-picchu-photo2.jpg",
+    "https://example.com/machu-picchu-photo3.jpg"
+  ],
+  "reviews": [
+    "Breathtaking views!",
+    "A mystical place with rich history.",
+    "The hike was challenging but rewarding."
+  ],
+  "coordinates": {
+    "latitude": 13.1631,
+    "longitude": -72.545
+  }
+},{
+  "_id": {
+    "$oid": "64940291287cdb3ad439f84a"
+  },
+  "name": "The Grand Canyon",
+  "location": "Arizona, USA",
+  "category": "Natural Wonders",
+  "description": "The Grand Canyon is a massive gorge carved by the Colorado River in Arizona, USA. It is known for its colorful rock formations and breathtaking views.",
+  "address": "Grand Canyon Village, Arizona 86023, USA",
+  "contact": "+1 928-638-7888",
+  "ratings": 4.9,
+  "photos": [
+    "https://example.com/grand-canyon-photo1.jpg",
+    "https://example.com/grand-canyon-photo2.jpg",
+    "https://example.com/grand-canyon-photo3.jpg"
+  ],
+  "reviews": [
+    "A natural wonder that leaves you speechless!",
+    "The sheer size of the Grand Canyon is awe-inspiring.",
+    "Hiking along the rim offers breathtaking panoramic views."
+  ],
+  "coordinates": {
+    "latitude": 36.0544,
+    "longitude": -112.1401
+  }
+},{
+  "_id": {
+    "$oid": "64940291287cdb3ad439f84b"
+  },
+  "name": "The Acropolis",
+  "location": "Athens, Greece",
+  "category": "Historical Sites",
+  "description": "The Acropolis is an ancient citadel located on a rocky outcrop above the city of Athens, Greece. It houses several iconic structures, including the Parthenon.",
+  "address": "Athens 105 58, Greece",
+  "contact": "+30 21 0321 4172",
+  "ratings": 4.7,
+  "photos": [
+    "https://example.com/acropolis-photo1.jpg",
+    "https://example.com/acropolis-photo2.jpg",
+    "https://example.com/acropolis-photo3.jpg"
+  ],
+  "reviews": [
+    "An architectural masterpiece!",
+    "The views from the Acropolis are breathtaking.",
+    "A must-visit when in Athens."
+  ],
+  "coordinates": {
+    "latitude": 37.9715,
+    "longitude": 23.7256
+  }
+},{
+  "_id": {
+    "$oid": "64940291287cdb3ad439f84c"
+  },
+  "name": "Niagara Falls",
+  "location": "Ontario, Canada",
+  "category": "Natural Wonders",
+  "description": "Niagara Falls is a collection of three waterfalls located on the border of Ontario, Canada, and New York, USA. It is one of the most famous waterfall systems in the world.",
+  "address": "Niagara Falls, ON, Canada",
+  "contact": "+1 877-642-7275",
+  "ratings": 4.8,
+  "photos": [
+    "https://example.com/niagara-falls-photo1.jpg",
+    "https://example.com/niagara-falls-photo2.jpg",
+    "https://example.com/niagara-falls-photo3.jpg"
+  ],
+  "reviews": [
+    "A natural wonder that mesmerizes visitors!",
+    "The power and beauty of the falls are awe-inspiring.",
+    "Taking a boat ride near the falls is an unforgettable experience."
+  ],
+  "coordinates": {
+    "latitude": 43.0896,
+    "longitude": -79.0849
+  }
+},{
+  "_id": {
+    "$oid": "64940291287cdb3ad439f84d"
+  },
+  "name": "The Great Wall of China",
+  "location": "Beijing, China",
+  "category": "Historical Sites",
+  "description": "The Great Wall of China is a series of fortifications that spans across Northern China. It is a UNESCO World Heritage site and one of the New Seven Wonders of the World.",
+  "address": "Huairou, China",
+  "contact": "+86 10 6162 6022",
+  "ratings": 4.7,
+  "photos": [
+    "https://example.com/great-wall-photo1.jpg",
+    "https://example.com/great-wall-photo2.jpg",
+    "https://example.com/great-wall-photo3.jpg"
+  ],
+  "reviews": [
+    "An engineering marvel!",
+    "The views from the wall are breathtaking.",
+    "Walking on the Great Wall is an unforgettable experience."
+  ],
+  "coordinates": {
+    "latitude": 40.4319,
+    "longitude": 116.5704
+  }
+}]

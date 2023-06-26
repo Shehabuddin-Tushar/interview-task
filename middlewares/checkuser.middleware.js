@@ -10,6 +10,8 @@ exports.checkuser = async (req, res, next) => {
             token = authorization.split(" ")[1];
 
             const { userID } = jwt.verify(token, process.env.JWT_SECRET)
+
+            console.log(userID)
             let n = req.user = await UserModel.findById({ _id: userID }).select("-password")
             console.log(n)
             next()

@@ -5,6 +5,7 @@ const roomscontroller = require("../controllers/roomscontroller")
 const stripe = require('stripe')(process.env.YOUR_STRIPE_SECRET_KEY);
 const path = require("path")
 const Booking = require("../models/bookingSchema")
+const mongoose=require("mongoose")
 
 
 
@@ -23,7 +24,49 @@ router.get("/paymentscreen", (req,res) => {
     })
 })
 
-router.post("/payment",roomscontroller.payment)
+router.post("/payment", async (req, res) => {
+    const userId = new mongoose.Types.ObjectId('6497ddc4a896d160b7b0b168'); // Replace with the actual ID of the user document
+
+    const updateBooking = await Booking.findByIdAndUpdate(
+        { _id: userId },
+        { $set: { payment: 'confirmed' } },
+        { new: true }
+
+    );
+
+    try {
+        const customer = await stripe.customers.create({
+            email: req.body.stripeEmail,
+            source: req.body.stripeToken,
+            name: "tushar khan interview task",
+            address: {
+                line1: "jatrabari",
+                postal_code: "1362",
+                city: "Dhaka",
+                state: "Dhaka",
+                country: "Bangladesh"
+            }
+        });
+
+        const charge = await stripe.charges.create({
+            amount: 7000,
+            description: "interview task for backend developer",
+            currency: "USD",
+            customer: customer.id
+        });
+        console.log(charge);
+
+        
+
+        res.send("success");
+
+
+    } catch (err) {
+        res.send(err);
+    }
+
+
+})
 
 
 

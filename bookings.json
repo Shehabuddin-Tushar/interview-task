@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "6497ddc4a896d160b7b0b168"
+  },
+  "guestName": "John Doe",
+  "contact": "1234567890",
+  "email": "johndoe@example.com",
+  "hotel": {
+    "$oid": "6495da6398632147d28c9aa2"
+  },
+  "roomNumber": "101",
+  "checkInDate": {
+    "$date": "2023-07-01T00:00:00Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-07-05T00:00:00Z"
+  },
+  "payment": "Pending",
+  "status": "Pending",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6497e72b40a4654ebab4e043"
+  },
+  "guestName": "John Doe",
+  "contact": "1234567890",
+  "email": "karrydoe@example.com",
+  "hotel": {
+    "$oid": "6495da6398632147d28c9aa2"
+  },
+  "roomNumber": "103",
+  "checkInDate": {
+    "$date": "2023-07-01T00:00:00Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-07-05T00:00:00Z"
+  },
+  "payment": "Pending",
+  "status": "Pending",
+  "__v": 0
+}]

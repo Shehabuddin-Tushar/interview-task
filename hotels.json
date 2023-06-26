@@ -1,0 +1,333 @@
+[{
+  "_id": {
+    "$oid": "6495da6398632147d28c9aa2"
+  },
+  "name": "Hotel E",
+  "type": "Luxury",
+  "amenities": [
+    "Spa",
+    "Fine Dining",
+    "Concierge Service"
+  ],
+  "city": "Paris",
+  "address": "567 Luxury Avenue",
+  "photos": [
+    "photo13.jpg",
+    "photo14.jpg",
+    "photo15.jpg"
+  ],
+  "title": "Indulge in Luxury at Our Exquisite Parisian Hotel",
+  "desc": "Experience the epitome of luxury and elegance in the heart of Paris.",
+  "rating": 4.9,
+  "rooms": [
+    "6496aa60f92544ad7b916ead"
+  ],
+  "reviews": [
+    {
+      "username": "User9",
+      "rating": 5,
+      "comment": "Unforgettable experience. Impeccable service and stunning accommodations.",
+      "_id": {
+        "$oid": "6495da6398632147d28c9aa3"
+      }
+    },
+    {
+      "username": "User10",
+      "rating": 5,
+      "comment": "An absolute gem in Paris. Exceeded all expectations.",
+      "_id": {
+        "$oid": "6495da6398632147d28c9aa4"
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6495da7c98632147d28c9aa6"
+  },
+  "name": "Hotel F",
+  "type": "Resort",
+  "amenities": [
+    "Beach Access",
+    "Poolside Bar",
+    "Water Sports"
+  ],
+  "city": "Bali",
+  "address": "123 Paradise Street",
+  "photos": [
+    "photo16.jpg",
+    "photo17.jpg",
+    "photo18.jpg"
+  ],
+  "title": "Experience Tropical Paradise in Bali",
+  "desc": "Escape to a serene paradise and indulge in luxury at our resort in Bali.",
+  "rating": 4.7,
+  "rooms": [
+    "6496aae7f92544ad7b916ec2"
+  ],
+  "reviews": [
+    {
+      "username": "User11",
+      "rating": 4.5,
+      "comment": "Absolutely stunning resort with breathtaking views.",
+      "_id": {
+        "$oid": "6495da7c98632147d28c9aa7"
+      }
+    },
+    {
+      "username": "User12",
+      "rating": 5,
+      "comment": "Paradise found! The staff was attentive and the facilities were fantastic.",
+      "_id": {
+        "$oid": "6495da7c98632147d28c9aa8"
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6495dac398632147d28c9aaa"
+  },
+  "name": "Hotel G",
+  "type": "City Center",
+  "amenities": [
+    "Gym",
+    "Restaurant",
+    "Roof Terrace"
+  ],
+  "city": "Tokyo",
+  "address": "456 Downtown Avenue",
+  "photos": [
+    "photo19.jpg",
+    "photo20.jpg",
+    "photo21.jpg"
+  ],
+  "title": "Convenience and Comfort in the Heart of Tokyo",
+  "desc": "Discover the vibrant city of Tokyo from our centrally located hotel.",
+  "rating": 4.4,
+  "rooms": [],
+  "reviews": [
+    {
+      "username": "User13",
+      "rating": 4,
+      "comment": "Great location for exploring the city. Comfortable and modern rooms.",
+      "_id": {
+        "$oid": "6495dac398632147d28c9aab"
+      }
+    },
+    {
+      "username": "User14",
+      "rating": 4.5,
+      "comment": "Friendly staff and a great value for the price.",
+      "_id": {
+        "$oid": "6495dac398632147d28c9aac"
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6495dadd98632147d28c9aae"
+  },
+  "name": "Hotel H",
+  "type": "Mountain Lodge",
+  "amenities": [
+    "Hiking Trails",
+    "Fireplace",
+    "Spa"
+  ],
+  "city": "Aspen",
+  "address": "789 Mountain Road",
+  "photos": [
+    "photo22.jpg",
+    "photo23.jpg",
+    "photo24.jpg"
+  ],
+  "title": "Relax and Rejuvenate in the Scenic Mountains of Aspen",
+  "desc": "Escape to the mountains and experience tranquility at our cozy lodge in Aspen.",
+  "rating": 4.6,
+  "rooms": [],
+  "reviews": [
+    {
+      "username": "User15",
+      "rating": 4.5,
+      "comment": "The perfect retreat. The lodge had a rustic charm and the views were incredible.",
+      "_id": {
+        "$oid": "6495dadd98632147d28c9aaf"
+      }
+    },
+    {
+      "username": "User16",
+      "rating": 5,
+      "comment": "A hidden gem in Aspen. Loved the cozy atmosphere and friendly staff.",
+      "_id": {
+        "$oid": "6495dadd98632147d28c9ab0"
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6495daef98632147d28c9ab2"
+  },
+  "name": "Hotel I",
+  "type": "Historic",
+  "amenities": [
+    "Free WiFi",
+    "On-Site Restaurant",
+    "Concierge"
+  ],
+  "city": "Rome",
+  "address": "901 Historical Street",
+  "photos": [
+    "photo25.jpg",
+    "photo26.jpg",
+    "photo27.jpg"
+  ],
+  "title": "Immerse Yourself in History at our Historic Hotel in Rome",
+  "desc": "Step back in time and discover the rich history of Rome from our elegant hotel.",
+  "rating": 4.3,
+  "rooms": [],
+  "reviews": [
+    {
+      "username": "User17",
+      "rating": 4,
+      "comment": "A charming hotel with a great location near the major attractions.",
+      "_id": {
+        "$oid": "6495daef98632147d28c9ab3"
+      }
+    },
+    {
+      "username": "User18",
+      "rating": 4.5,
+      "comment": "Loved the historical ambiance and the helpful staff.",
+      "_id": {
+        "$oid": "6495daef98632147d28c9ab4"
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6495db0298632147d28c9ab6"
+  },
+  "name": "Hotel J",
+  "type": "Beachfront",
+  "amenities": [
+    "Private Beach",
+    "Infinity Pool",
+    "Ocean View Rooms"
+  ],
+  "city": "Maldives",
+  "address": "123 Beach Paradise",
+  "photos": [
+    "photo28.jpg",
+    "photo29.jpg",
+    "photo30.jpg"
+  ],
+  "title": "Paradise Found: Luxury Beachfront Resort in the Maldives",
+  "desc": "Indulge in pure luxury and relaxation at our exquisite resort in the Maldives.",
+  "rating": 4.9,
+  "rooms": [],
+  "reviews": [
+    {
+      "username": "User19",
+      "rating": 5,
+      "comment": "Absolute perfection. The Maldives experience at its finest.",
+      "_id": {
+        "$oid": "6495db0298632147d28c9ab7"
+      }
+    },
+    {
+      "username": "User20",
+      "rating": 5,
+      "comment": "Unforgettable. The resort exceeded all expectations.",
+      "_id": {
+        "$oid": "6495db0298632147d28c9ab8"
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6496a1dc885d6544cf1b40b3"
+  },
+  "name": "Hotel A",
+  "type": "Resort",
+  "amenities": [
+    "Swimming Pool",
+    "Spa",
+    "Restaurant"
+  ],
+  "city": "Miami",
+  "address": "123 Ocean Drive",
+  "photos": [
+    "photo1.jpg",
+    "photo2.jpg",
+    "photo3.jpg"
+  ],
+  "title": "Luxurious Beachfront Resort",
+  "desc": "Experience the ultimate luxury at our beachfront resort in Miami.",
+  "rating": 4.8,
+  "rooms": [],
+  "reviews": [
+    {
+      "username": "User1",
+      "rating": 5,
+      "comment": "Absolutely stunning resort with excellent service.",
+      "_id": {
+        "$oid": "6496a1dc885d6544cf1b40b4"
+      }
+    },
+    {
+      "username": "User2",
+      "rating": 4.5,
+      "comment": "Had a fantastic time! The amenities were top-notch.",
+      "_id": {
+        "$oid": "6496a1dc885d6544cf1b40b5"
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6496a1fa885d6544cf1b40b7"
+  },
+  "name": "Hotel C",
+  "type": "Business",
+  "amenities": [
+    "Conference Room",
+    "Business Center",
+    "Restaurant"
+  ],
+  "city": "London",
+  "address": "789 Business Street",
+  "photos": [
+    "photo7.jpg",
+    "photo8.jpg",
+    "photo9.jpg"
+  ],
+  "title": "Upscale Business Hotel in London",
+  "desc": "Ideal for business travelers, our hotel offers sophisticated amenities and services.",
+  "rating": 4.3,
+  "rooms": [],
+  "reviews": [
+    {
+      "username": "User5",
+      "rating": 4.5,
+      "comment": "Perfect for my business trip. Convenient location and great facilities.",
+      "_id": {
+        "$oid": "6496a1fa885d6544cf1b40b8"
+      }
+    },
+    {
+      "username": "User6",
+      "rating": 4,
+      "comment": "Professional and attentive staff. Would stay again.",
+      "_id": {
+        "$oid": "6496a1fa885d6544cf1b40b9"
+      }
+    }
+  ],
+  "__v": 0
+}]

@@ -1,0 +1,69 @@
+[{
+  "_id": {
+    "$oid": "6496aa60f92544ad7b916ead"
+  },
+  "title": "Midium room",
+  "price": 3000,
+  "maxPeople": 2,
+  "desc": "Midium size bed, 1 bathroom and belcony",
+  "roomNumbers": [
+    {
+      "number": 103,
+      "unavailableDates": [
+        {
+          "$date": "2023-06-26T00:00:00Z"
+        },
+        {
+          "$date": "2023-06-27T00:00:00Z"
+        }
+      ],
+      "photo": "photo three",
+      "_id": {
+        "$oid": "6496aa60f92544ad7b916eae"
+      }
+    },
+    {
+      "number": 104,
+      "unavailableDates": [
+        {
+          "$date": "2023-06-26T00:00:00Z"
+        },
+        {
+          "$date": "2023-06-27T00:00:00Z"
+        }
+      ],
+      "photo": "photo four",
+      "_id": {
+        "$oid": "6496aa60f92544ad7b916eaf"
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6496aae7f92544ad7b916ec2"
+  },
+  "title": "Midium room",
+  "price": 3000,
+  "maxPeople": 2,
+  "desc": "Midium size bed, 1 bathroom and belcony",
+  "roomNumbers": [
+    {
+      "number": 106,
+      "unavailableDates": [],
+      "photo": "photo six",
+      "_id": {
+        "$oid": "6496aae7f92544ad7b916ec3"
+      }
+    },
+    {
+      "number": 107,
+      "unavailableDates": [],
+      "photo": "photo five",
+      "_id": {
+        "$oid": "6496aae7f92544ad7b916ec4"
+      }
+    }
+  ],
+  "__v": 0
+}]
